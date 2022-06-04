@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="grid grid-cols-4 justify-center items-center relative">
       <a href="/" className="lg:col-span-1 col-span-2">
-        <img src="logo.png" alt="Logo" className="w-32" />
+        <h2 className="w-32 text-white font-semibold">DVSL</h2>
       </a>
       <div className="col-span-2 flex lg:hidden justify-end">
         <button

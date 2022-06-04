@@ -6,14 +6,14 @@ module.exports = {
     extend: {
       colors: {
         main: "#23073A",
-        subMain: "#502573",
+        subMain: " #dcab65",
         subLightMain: "#7529B2",
         whites: "#FFFFFF",
         blacks: "#000000",
-        lightBlack: "#BCBCBC",
+        lightCream: "#f8efe1",
         lightGray: "#F6F7FC",
         pink: "#FD399B",
-        blue: "#3EAAE9",
+        cream: "#f8efe1",
         overlay: "#23073ACC",
       },
       fontFamily: {

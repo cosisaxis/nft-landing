@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Russo+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,6 +13,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     height: 100vh;
+    font-family: 'Fredoka One', cursive;
 }
 
 input:focus,
@@ -31,10 +34,12 @@ select:focus {
 }
 
 .main{
-background: linear-gradient(268.43deg, #93216C 5.3%, #23073A 53.26%);
+background: linear-gradient(268.43deg, #eacda3 5.3%,  #d6ae7b 53.26%);
 }
 .bt-linear{
-background: linear-gradient(90deg, #FD399B 0%, #3EAAE9 109.89%);
+/* background: linear-gradient(90deg, #FD399B 0%, #3EAAE9 109.89%); */
+background-color: #dcab65;
+
 }
 .hero{
 height: 600px;
