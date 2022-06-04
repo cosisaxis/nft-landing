@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+}
+
+.flex-colo {
+  @apply flex flex-col justify-center items-center;
+}
+.flex-rows {
+  @apply flex justify-center items-center;
+}
+.transitione {
+  @apply transition ease-in-out duration-700;
+}
+
+.main{
+background: linear-gradient(268.43deg, #93216C 5.3%, #23073A 53.26%);
+}
+.bt-linear{
+background: linear-gradient(90deg, #FD399B 0%, #3EAAE9 109.89%);
+}
+.hero{
+height: 600px;
+}
+.count{
+background: linear-gradient(180deg, #7529B3 36.04%, #FD399B 100%);
+
+}
+.top-hidden{
+@apply scale-0
+}
+.top-hover:hover .top-hidden{
+@apply scale-100
+}
+
+/* Owl */
+.owl-theme .owl-dots .owl-dot span{
+background-color: unset !important;
+border: 2px solid #FD399B;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+background-color: white !important;
+}
+.owl-theme .owl-dots{
+margin-top: 2rem !important;
+}
+
+@media (max-width:1024px) {
+.bgSmall{
+  background: linear-gradient(180deg, #7529B3 36.04%, #FD399B 100%);
+}
 }
