@@ -3,6 +3,7 @@ import React from 'react';
 import Collection from './components/Collection';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Collection />
+      <Newsletter />
      
       
       </div>
