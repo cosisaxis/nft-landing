@@ -1,4 +1,5 @@
 import React from 'react'
+import Counter from './TimeCounter'
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
                 <h2 className='italic font-semibold text-cream'>
                  Community drop coming soon!!!
                 </h2>
-
+               <Counter />
             </div>
         </div>
         {/* right */}

@@ -45,7 +45,7 @@ background-color: #dcab65;
 height: 600px;
 }
 .count{
-background: linear-gradient(180deg, #7529B3 36.04%, #FD399B 100%);
+background: #eacda3;
 
 }
 .top-hidden{
@@ -69,6 +69,6 @@ margin-top: 2rem !important;
 
 @media (max-width:1024px) {
 .bgSmall{
-  background: linear-gradient(180deg, #7529B3 36.04%, #FD399B 100%);
+  background: #eacda3;
 }
 }
