@@ -58,7 +58,7 @@ background: #eacda3;
 /* Owl */
 .owl-theme .owl-dots .owl-dot span{
 background-color: unset !important;
-border: 2px solid #FD399B;
+border: 2px solid #dcab65;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
 background-color: white !important;

@@ -7,7 +7,8 @@ module.exports = {
       colors: {
         main: "#23073A",
         subMain: " #dcab65",
-        subLightMain: "#7529B2",
+        subLightMain: "#dcab65",
+        edges: "#dcab65",
         whites: "#FFFFFF",
         blacks: "#000000",
         lightCream: "#f8efe1",
