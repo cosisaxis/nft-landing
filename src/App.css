@@ -1,0 +1,16 @@
+#light{
+    background: #f3ebf6;
+}
+#dark{
+    background: #460445;
+}
+
+#dark h1{
+    color: white;
+}
+#dark p{
+    color: white;
+}
+#dark h2{
+    color: white;
+}

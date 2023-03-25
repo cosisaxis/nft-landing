@@ -1,12 +1,15 @@
 import React, { useState } from "react";
+import ReactSwitch from "react-switch";
+
 
 const menuClass =
   "text-black font-semibold tracking-widest text-sm my-6 lg:my-0 lg:mx-6 hover:text-blue transitione";
 
+
 function Navbar() {
   const [show, setShow] = useState(true);
   return (
-    <div className="grid grid-cols-4 justify-center items-center relative">
+    <div id="name" className="grid grid-cols-4 justify-center items-center relative">
       <a href="/" className="lg:col-span-1 col-span-2">
         <h2 className="w-32 text-black font-semibold">DVSL</h2>
       </a>
@@ -34,6 +37,7 @@ function Navbar() {
           <li className={menuClass}>
             <a href="#">EXPLORE</a>
           </li>
+        
         </ul>
         <button className="lg:border-0 border border-whites hover:skew-x-12 transitione bt-linear font-semibold text-black text-sm py-3 px-8 rounded">
           CONNECT
