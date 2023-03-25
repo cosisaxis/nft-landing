@@ -16,7 +16,7 @@ const Counter = () => {
     let interval;
 
     const timer = () => {
-        const dropDay = new Date("July 31, 2022").getTime();
+        const dropDay = new Date("July 31, 2023").getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
