@@ -34,7 +34,7 @@ select:focus {
 }
 
 .main{
-background: linear-gradient(268.43deg, #eacda3 5.3%,  #d6ae7b 53.26%);
+background: linear-gradient(268.43deg, white 5.3%,  white 53.26%);
 }
 .bt-linear{
 /* background: linear-gradient(90deg, #FD399B 0%, #3EAAE9 109.89%); */
